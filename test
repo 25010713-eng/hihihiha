@@ -1,1 +1,19 @@
+import streamlit as st
+st.header('st.check_box)
+st.write('주문할 아이스크림을를 선택해주세요!')
+초코 아이스크림 = st.checkbox('초코 아이스크림') 
+딸기 아이스크림 = st.checkbox('딸기 아이스크림')
+바닐라 아이스크림= st.checkbox('바닐라 아이스크림')
+
+if 초코 아이스크림:
+  st.write("주문이 완료되었습니다.")
+if 딸기아이스크림:
+  st.write("주문이 완료되었습니다.")
+if 바닐라 아이스크림:
+  st.write("주문이 완료되었습니다.")
+
+
+
+
+
 
